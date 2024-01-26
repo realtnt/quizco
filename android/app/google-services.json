@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "272132020404",
+    "project_id": "quizco-fireship",
+    "storage_bucket": "quizco-fireship.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272132020404:android:4de4ae23b732590d6a5fe1",
+        "android_client_info": {
+          "package_name": "uk.co.thetaphoto.quizco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272132020404-m6jblefqr5f41mjirm6gcj3ql8bb7un8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uk.co.thetaphoto.quizco",
+            "certificate_hash": "ad966c5008d615c961bf636f432d3ef87030a318"
+          }
+        },
+        {
+          "client_id": "272132020404-cqe930br99lna9523d142lblgkvs3b02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWGtDSaRxzmvNqic5n0yWbtI73cU509Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272132020404-cqe930br99lna9523d142lblgkvs3b02.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "272132020404-p33qqgann0d25v8sqgtq6dpu9n0sb909.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "uk.co.thetaphoto.quizco"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
