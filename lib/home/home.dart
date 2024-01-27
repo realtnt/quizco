@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:quizco/login/login.dart';
-import 'package:quizco/routes.dart';
 import 'package:quizco/services/auth.dart';
 import 'package:quizco/topics/topics.dart';
 

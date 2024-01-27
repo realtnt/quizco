@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:quizco/routes.dart';
 import 'package:quizco/services/auth.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -68,7 +67,7 @@ class LoginButton extends StatelessWidget {
     return Container(
         margin: const EdgeInsets.only(bottom: 10),
         child: ElevatedButton.icon(
-          label: Text(''),
+          label: const Text(''),
           icon: Icon(
             icon,
             color: Colors.white,
