@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quizco/services/models.dart';
 import 'package:quizco/shared/progress_bar.dart';
+import 'package:quizco/topics/drawer.dart';
 
 class TopicItem extends StatelessWidget {
   final Topic topic;
@@ -75,14 +76,18 @@ class TopicScreen extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
             ),
           ),
-          Text(
-            topic.title,
-            style: const TextStyle(
-              height: 2,
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
+          Padding(
+            padding: const EdgeInsets.only(left: 12.0),
+            child: Text(
+              topic.title,
+              style: const TextStyle(
+                height: 2,
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
+          QuizList(topic: topic),
         ],
       ),
     );
